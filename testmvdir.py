@@ -4,3 +4,6 @@ print(x)
 
 y='kolejna testowa zmiana'
 print(y)
+
+z='kolejna zmiana, untracked this time'
+print(z)
