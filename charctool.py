@@ -54,7 +54,6 @@ class Application(Frame):
 
     def confirm_clear(self):
         self.usrtxt.delete(0.0, END)
-        #self.sum = Label(self, text="SUM OF CHARACTERS: 0           ", font='Ubuntu 12 bold').grid(row=32, column=1,sticky=W)
         self.char_sum=0
         self.labels(self.char_sum)
 
